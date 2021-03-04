@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiPo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<style type="text/css"></style>
+    <script src="filejs.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.demoslide img:gt(0)').hide();
+        setInterval(function(){
+        $('.demoslide :first-child').fadeOut() //FadeOut là ảnh đang hiện
+        .next('img').fadeIn() //fadeIn ảnh tiếp theo
+        .end().appendTo('.demoslide'); // chuyển vị trí ảnh xuống cuối
+        }, 4000);
+    })
+ 
+</script>
+<script></script>
+</head>
+<body>
+    <header>
+    
+    <div class="logo">
+    <a href="trangchu.html"><img src="images/logo.png" alt ="logo" width="150px"></a>
+    </div>
+    <div class="dangnhap">
+        <a href="DangNhap.html"><button>Đăng Nhập</button></a>
+    </div>
+    <div class="timkiem">
+        <form>
+            <input type="text" name="search" placeholder="Tìm Kiếm">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    
+    <div class="giohang">
+        
+        <a href="GioHang.html"><img  style="float: right;" src="images/shopping cart.png" alt="icon" width="45px"></a>
+        </div>
+    <div class="menu">
+
+        <a href="trangchu.html"><button>Trang Chủ</button> </a>
+        <a href="TinTuc.html"><button>Tin Tức</button> </a>
+        <a href="Nguyenlieu.html"><div class="dropdown">
+            <button class="dropbtn"><a href="Nguyenlieu.html">Sản Phẩm</a><i class="fa fa-caret-down"></i></button>
+            
+            <div class="dropdown-content">
+              <a href="Nguyenlieu.html">Nguyên Liệu Pha Chế</a>
+              <a href="ThietBi.html">Thiết Bị Pha Chế</a>
+            </div>
+          </div>
+          </a>
+        <a href="KhuyenMai.html"><button>Khuyến Mãi</button> </a>
+        <a href="ThanhVien.html"><button> Thành Viên</button></a>
+        <a href="LienHe.html"><button> Liên Hệ </button></a>
+            
+    </div>
+    </header>
+    <main style="height: 700px;margin-top: 100px; ">
+        <div class="row">
+            
+          
+        <div class="goiy" style="float: left; margin-top: 100px; background-color: rgb(236, 229, 217); opacity: 0.7;height: 400px;border-radius: 20px;font-size: 19px;width: 37%; ">
+           
+         <h1 style="text-align: center; color:rgb(26, 85, 194)"> Có Thể Bạn Chưa Biết </h1>
+         <br>
+         <ul>
+            <li><a href="https://caudatfarm.com/blogs/blog-tra/tong-hop-cong-thuc-pha-che-45-loai-tra-ngon" target="_blank">TỔNG HỢP CÔNG THỨC PHA CHẾ 45 LOẠI TRÀ NGON</a><br> <br></li>
+            
+            <li><a href="https://jarvis.vn/goc-tu-van/cac-loai-nuoc-uong-da-xay.html"target="_blank">CÁCH PHA CHẾ 11 LOẠI NƯỚC UỐNG ĐÁ XAY</a> <br> <br></li>
+            <li><a href="https://dailytratuiloc.com/tin-tuc/7-loi-ich-dang-ghi-nhan-tu-tra-tui-loc-117.html"target="_blank">7 LỢI ÍCH ĐÁNG GHI NHẬN TỪ TRÀ TÚI LỌC</a> <br> <br></li>
+            <li><a href="https://trongduccacao.vn/r/id-15-tac-dung-cua-bot-ca-cao-nguyen-chat-sieu-thuc-pham-cho-suc-khoe.html"target="_blank">15 TÁC DỤNG CỦA BỘT CACAO NGUYÊN CHẤT</a> <br> <br></li>
+            <li><a href="https://suckhoedoisong.vn/7-ly-do-ban-nen-uong-tra-matcha-moi-sang-n122318.html#:~:text=M%E1%BB%99t%20trong%20nh%E1%BB%AFng%20l%E1%BB%A3i%20%C3%ADch,th%C6%B0%20v%C3%A0%20ch%E1%BB%91ng%20l%C3%A3o%20h%C3%B3a."target="_blank">7 LÝ DO BẠN NÊN UỐNG MATCHA VÀO MỖI BUỔI SÁNG</a></li>
+        </ul>
+            
+        </div>
+    </div>
+    <div class="column">
+      <div class="CongThuc">
+        <a href="CachPhaTraTuiLoc1.html">
+          <img src="images/SPKhuyenMai/phatra.jpg" alt="phatra" width="400px" style="float: left;">
+         <h1>Công Thức Pha Chế Trà Đào Ngon</h1> 
+         <p> Nguyên liệu :<br>
+            <br>
+             5-7 gói trà túi lọc <br>
+            1 lít nước sôi nóng già <br>
+            2-3 quả đào chín <br>
+            80g đường cát trắng, <br>
+            1/2 quả đào chín, bỏ hạt, cắt lát mỏng <br>
+            Đá viên.</p>
+        </a>
+      </div>
+    
+  
+      <div class="CongThuc" style="margin-top:-20px">
+        <a href="CachPhaTraSua.html">
+        <img src="images/SPKhuyenMai/Trasua.jpeg" alt="phatra" width="400px" style="float: left;">
+       <h1>Công Thức Pha Chế Trà Sữa Ngon</h1> 
+       <p> Nguyên liệu: <br> <br>
+        - Bột trà thái <br>
+        - 45ml sữa đặc <br>
+        - Đường <br></p>
+    </a>
+    </div>
+</div>
+</div>
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <th><h3 style="color:white;">Giới Thiệu</h3></th>
+                <th>
+                        <p>PiPo Shop </p>
+                       
+                </th>
+                <th style="padding-top: 20px;">
+                    <p>Đăng Kí Nhận Tin</p>
+                    <input type="text" id="mail" placeholder="Email.." >
+                </th>
+                <th rowspan="4"><div id="fb-root" ></div>
+                    <h3>FANPAGE</h3>
+                    <div style="width: 500px;">
+                        <!-- Page plugin's width will be 190px -->
+                        <div class="fb-page" data-href="https://www.facebook.com/Nguy%C3%AAn-Li%E1%BB%87u-Pha-Ch%E1%BA%BF-106350907780530" data-width="420"></div>
+                      </div>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    <p>Chúng Tôi chuyên nhập khẩu và phân phối các sản phẩm nguyên liệu thức uống và một số thiết bị pha Chế
+                    mang đến cho khách hàng các sản phẩm an toàn nhất và tiện lợi nhất . Cam kết sẽ giúp cho quý khách hàng một trải nghiệm
+                    tuyệt vời . </p>
+                </td>
+                <td >
+                    <a href="trangchu.html"style="color: white;">Trang Chủ</a>
+                    <br>
+                    <br>
+                    <a href="KhuyenMai.html"style="color: white;">Khuyến Mãi</a>
+                    <br>
+                    <br>
+                    <a href="LienHe.html"style="color: white;">Liên Hệ</a>
+                </td>
+                <td></td>
+            </tr>
+            <tr>    
+                <td> <div class="fa fa-home">
+                    Cửa hàng 78 Ca Văn Thỉnh , Phường 14 , Quận Tân Bình.
+                </div>
+                </td>
+                <td>
+                   
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><div class="fa fa-envelope-o" >
+                    <a href= "mailto:hoangde092000@gmail.com" style="color: yellow;">hoangde092000@gmail.com</a>
+                    </div>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="fa fa-phone">
+                        <a href="tel://0337929246" style="color: yellow">03379299246</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>&copy; 2020 - PiPo</td>
+            </tr>
+        
+    </table>
+    </footer>
+    <div class="footer"><a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline; "><button style="border-radius:50%; width:70px; color: rgb(11, 12, 9);background-color: rgb(165, 165, 151); box-shadow: 0px 0px 10px 5px rgb(169, 182, 125);" ><i class="fa fa-arrow-up"></i></button></a> </div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+
+    </body>
+</html>

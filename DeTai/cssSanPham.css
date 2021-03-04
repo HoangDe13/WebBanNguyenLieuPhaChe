@@ -1,0 +1,102 @@
+.GTSanPham{
+  width: 75%;
+  height: 900px;
+  background-color: white;
+  float: right;
+  margin-top: 53px;
+  margin-left:17.55%;
+  position: absolute;
+  padding: auto;
+ 
+  border-radius: 10px 10px 10px 10px;
+}
+.sanpham ul {
+  margin-left: 100px;
+  float: left;
+}
+footer
+{
+  margin-top: 50px;
+  display: inline-block;
+  padding-top: 910px;
+  padding-left: -10px;
+}
+.GTSanPhamPC{
+  width: 75%;
+  height: 910px;
+  background-color: white;
+  float: right;
+  margin-top: 54px;
+  padding-left: -110px;
+  position: absolute;
+  padding: auto;
+  
+  border-radius: 10px 10px 10px 10px;
+}
+ #left ul{
+   padding-left: -100px;
+ }
+  /* Fixed sidenav, full height */
+  .sidenavSP{
+    height: 900px;
+    width: 18%;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    background-color: rgb(221, 236, 241);
+    overflow-x: hidden;
+    margin-left: -10px;
+    margin-top: 15px;
+    border-right:2px ridge black ;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: -5px 1px 5px 5px olive;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenavSP a, .dropdown-btnSP {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(81, 88, 88);
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenavSP a:hover, .dropdown-btnSP:hover {
+    color: black;
+    background-color: rgb(169, 171, 173);
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: lightgrey;
+    color: black;
+  }
+  .sidenavSP a:active{
+      background-color: lightgray;
+  }
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-containerSP {
+    display: none;
+    background-color: lightgray;
+    padding-left: 8px;
+  }
+
+  .maingiohang{
+    width: 50%;
+    height: 1000px;
+  }

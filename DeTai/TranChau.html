@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiPo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssSanPham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <style type="text/css"></style>
+    <script src="filejs.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('.demoslide img:gt(0)').hide();
+        setInterval(function(){
+        $('.demoslide :first-child').fadeOut() //FadeOut là ảnh đang hiện
+        .next('img').fadeIn() //fadeIn ảnh tiếp theo
+        .end().appendTo('.demoslide'); // chuyển vị trí ảnh xuống cuối
+        }, 4000);
+    })
+
+    </script>
+   
+</style>
+</head>
+<body>
+  <header>
+   
+    <div class="logo">
+    <a href="trangchu.html"><img src="images/logo.png" alt ="logo" width="150px"></a>
+    </div>
+    <div class="dangnhap">
+        <a href="DangNhap.html"><button>Đăng Nhập</button></a>
+    </div>
+    <div class="timkiem">
+        <form>
+            <input type="text" name="search" placeholder="Tìm Kiếm">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    
+    <div class="giohang">
+        
+        <a href="GioHang.html"><img  style="float: right;" src="images/shopping cart.png" alt="icon" width="45px"></a>
+        </div>
+    <div class="menu" >
+
+        <a href="trangchu.html"><button>Trang Chủ</button> </a>
+        <a href="TinTuc.html"><button>Tin Tức</button> </a>
+        <a href="Nguyenlieu.html"><div class="dropdown">
+            <button class="dropbtn"><a href="Nguyenlieu.html">Sản Phẩm</a><i class="fa fa-caret-down"></i></button>
+            
+            <div class="dropdown-content">
+              <a href="Nguyenlieu.html">Nguyên Liệu Pha Chế</a>
+              <a href="ThietBi.html">Thiết Bị Pha Chế</a>
+            </div>
+          </div>
+          </a>
+        <a href="KhuyenMai.html"><button>Khuyến Mãi</button> </a>
+        <a href="ThanhVien.html"><button> Thành Viên</button></a>
+        <a href="LienHe.html"><button> Liên Hệ </button></a>
+            
+    </div>
+</header>
+    <main>
+        <div class="menudoc">
+          <div class="sidenavSP">
+           <div class="dropdown-btnSP">Nguyên Liệu Pha Chế<i class="fa fa-caret-down"></i></div>
+              <div class="dropdown-containerSP">
+                <a href="Nguyenlieu.html">Bột Ca Cao</a>
+                <a href="BotTraSua.html">Bột Trà Sữa</a>
+                <a href="BotKem.html">Bột Kem</a>
+                <a href="BotCaffe.html">Bột Cà Phê</a>
+                <a href="BotMatcha.html">Bột Matcha</a>
+                 <a href="TranChau.html">Trân Châu</a>
+                <a href="TraiCayHop.html">Trái Cây Đóng Hộp</a>
+               <a href="TraTuiLoc.html">Trà Túi Lọc</a>
+             </div>
+          <a href="ThietBi.html" >Thiết Bị Pha Chế</a>
+        </div>
+      </div>
+      <div class="GTSanPham">
+        <div id="left">
+            
+  <ul>
+    <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau60k.jpg" width="180" height="220"><br>Trân ChâuPearls <br>TC003 <br><font color="darkblue">50.000<u>đ</u></font> </a>
+    <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau70k.jpg" width="180" height="220"><br>Trân Châu Taiwan <br>TC002 <br><font color="darkblue">60.000<u>đ</u></font> </a>
+    <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau75k.jpg" width="180" height="220"><br>Trân Châu wonderful<br>TC006 <br><font color="darkblue">75.000<u>đ</u></font> </a>
+    <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau80k.jpg" width="180" height="220"><br>Trân Châu đen<br>TC005 <br><font color="darkblue">80.000<u>đ</u></font> </a>
+  <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau89k.jpg" width="180" height="220"><br>Trân Châu Tapioca <br>TC004 <br><font color="darkblue">89.000<u>đ</u></font> </a>
+  <a href="gioithieuTranChau.html"><img src="images/SPTranChau/TranChau110k.jpg" width="180" height="220"><br>Trân Châu TAPIOCA <br>TC001 <br><font color="darkblue">110.000<u>đ</u></font> </a>
+
+
+    </ul>
+</div>
+</div>
+</main>
+<footer>
+    <table>
+        <tr>
+            <th><h3 style="color:white;">Giới Thiệu</h3></th>
+            <th>
+                    <p>PiPo Shop </p>
+                   
+            </th>
+            <th style="padding-top: 20px;">
+                <p>Đăng Kí Nhận Tin</p>
+                <input type="text" id="mail" placeholder="Email.." >
+            </th>
+            <th rowspan="4"><div id="fb-root" ></div>
+                <h3>FANPAGE</h3>
+                <div style="width: 500px;">
+                    <!-- Page plugin's width will be 190px -->
+                    <div class="fb-page" data-href="https://www.facebook.com/Nguy%C3%AAn-Li%E1%BB%87u-Pha-Ch%E1%BA%BF-106350907780530" data-width="420"></div>
+                  </div>
+        </tr>
+        <tr style="text-align: center;">
+            <td>
+                <p>Chúng Tôi chuyên nhập khẩu và phân phối các sản phẩm nguyên liệu thức uống và một số thiết bị pha Chế
+                mang đến cho khách hàng các sản phẩm an toàn nhất và tiện lợi nhất . Cam kết sẽ giúp cho quý khách hàng một trải nghiệm
+                tuyệt vời . </p>
+            </td>
+            <td >
+                <a href="trangchu.html"style="color: white;">Trang Chủ</a>
+                <br>
+                <br>
+                <a href="KhuyenMai.html"style="color: white;">Khuyến Mãi</a>
+                <br>
+                <br>
+                <a href="LienHe.html"style="color: white;">Liên Hệ</a>
+            </td>
+            <td></td>
+        </tr>
+        <tr>    
+            <td> <div class="fa fa-home">
+                Cửa hàng 78 Ca Văn Thỉnh , Phường 14 , Quận Tân Bình.
+            </div>
+            </td>
+            <td>
+               
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <td><div class="fa fa-envelope-o" >
+                <a href= "mailto:hoangde092000@gmail.com" style="color: yellow;">hoangde092000@gmail.com</a>
+                </div>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="fa fa-phone">
+                    <a href="tel://0337929246" style="color: yellow">03379299246</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>&copy; 2020 - PiPo</td>
+        </tr>
+    
+</table>
+</footer>
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btnSP");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+</body>
+</html> 
